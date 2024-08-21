@@ -1,12 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    dsfssssssssss
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fonts/stylesheet.css">
 </head>
+
 <body>
-    
+    <nav class="side-menu">
+        <header class="side-menu__header">
+            <button class="side-menu__close-btn">
+                <img src="img/burger-close.svg" alt="" class="side-menu__close-img">
+            </button>
+            <a href="#" class="side-menu__logo">
+                <img src="img/Group.svg" alt="CPS Group" class="side-menu__logo-img">
+            </a>
+            <button class="side-menu__search-btn">
+                <img src="img/search.svg" alt="" class="side-header__search-img">
+            </button>
+        </header>
+        <ul class="side-menu__options">
+            <li class="side-menu__item"><a href="#" class='side-menu__link'>Ремонт техники</a></li>
+            <li class="side-menu__item"><a href="#" class='side-menu__link'>Услуги и сервисы</a></li>
+            <li class="side-menu__item"><a href="#" class='side-menu__link'>Корпоративным клиентам</a></li>
+            <li class="side-menu__item"><a href="#" class='side-menu__link'>Продавцам техники</a></li>
+            <li class="side-menu__item"><a href="#" class='side-menu__link'>Партнерам</a></li>
+            <li class="side-menu__item"><a href="#" class='side-menu__link'>Производителям</a></li>
+            <li class="side-menu__item"><a href="#" class='side-menu__link'>Наши сервисные центры</a></li>
+            <li class="side-menu__item"><a href="#" class='side-menu__link'>Контакты</a></li>
+        </ul>
+        <footer class="side-footer">
+            <div class="side-footer__box">
+                <div class="side-footer__circle-buttons">
+                    <button href="#" class="side-footer__call">
+                        <img src="img/call.svg" alt="Звонок" class="side-footer__call">
+                    </button>
+                    <button href="#" class="side-footer__chat">
+                        <img src="img/chat.svg" alt="Чат" class="side-footer__chat">
+                    </button>
+                    <button class="side-footer__profile">
+                        <img src="img/profile.svg" alt="Профиль" class="side-footer__profile">
+                    </button>
+                </div>
+                <a href="mailto:mail@cps.com" class="side-footer__mail">mail@cps.com</a>
+                <a href="tel:+78008908900" class="side-footer__number">8 800 890 8900</a>
+                <div class="side-footer__lang-buttons">
+                    <button onclick="switchLanguage('ru')" class='side-footer__lang-btn' disabled>RU</button>
+                    <button onclick="switchLanguage('en')" class='side-footer__lang-btn'>EN</button>
+                    <button onclick="switchLanguage('ch')" class='side-footer__lang-btn'>CH</button>
+                </div>
+            </div>
+        </footer>
+    </nav>
 </body>
+
 </html>
